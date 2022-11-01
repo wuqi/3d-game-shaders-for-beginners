@@ -1,33 +1,23 @@
-<p align="center">
-<img src="https://i.imgur.com/x8rtGr4.gif" alt="3D Game Shaders For Beginners" title="3D Game Shaders For Beginners">
-</p>
 
-# 3D Game Shaders For Beginners
+![x8rtGr4](asserts/x8rtGr4.gif)
 
-Interested in adding
-textures,
-lighting,
-shadows,
-normal maps,
-glowing objects,
-ambient occlusion,
-reflections,
-refractions,
-and more to your 3D game?
-Great!
-Below is a collection of shading techniques that will take your game visuals to new heights.
-I've explained each technique in such a way that you can take what you learn here and apply/port it to
-whatever stack you use—be it Godot, Unity, Unreal, or something else.
-For the glue in between the shaders,
-I've chosen the fabulous Panda3D game engine and the OpenGL Shading Language (GLSL).
-So if that is your stack, then you'll also get the benefit of learning how to use these
-shading techniques with Panda3D and OpenGL specifically.
+# 从零开始学3D游戏着色器编程
+
+你有兴趣将纹理，光照，阴影，法线贴图，发光体，环境光遮蔽，反射，折射和其他更多效果添加到你的3D游戏中么?
+
+很好!
+
+以下的一组着色器技术将把你的游戏视觉效果提升至新高度。
+
+我将详细解释各种技术，这样你就可以将这些技术应用到任何你使用的技术栈上——无论是Godot，Unity，Unreal或者是其他游戏引擎上。
+
+对于着色器之间的胶水，我专门选择了Panda3D游戏引擎和OpenGL着色语言(GLSL)。所以如果你也准备使用它们作为技术栈，那么你也将学到如何用Panda3D和OpenGL实现这些着色器技术。
 
 ## Table Of Contents
 
-- [Setup](sections/setup.md)
-- [Building The Demo](sections/building-the-demo.md)
-- [Running The Demo](sections/running-the-demo.md)
+- [环境准备](setup.md)
+- [编译示例](building-the-demo.md)
+- [运行示例](running-the-demo.md)
 - [Reference Frames](sections/reference-frames.md)
 - [GLSL](sections/glsl.md)
 - [Render To Texture](sections/render-to-texture.md)
